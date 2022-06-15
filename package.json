@@ -1,5 +1,5 @@
 {
-  "name": "this.form",
+  "name": "this.form.assignments.assignments",
   "private": true,
   "scripts": {
     "dev": "next dev",
