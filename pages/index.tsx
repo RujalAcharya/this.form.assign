@@ -17,13 +17,13 @@ const Home: NextPage = () => (
       <Flex direction={"column"} width={"400px"} alignItems={"center"} p={"2px"} marginBottom={"28px"}>
         <div>
           <Text align={"left"}>Email</Text>
-          <Input width={"400px"} placeholder="johndoe@example.com"></Input>
+          <Input type={"email"} width={"400px"} placeholder="johndoe@example.com"></Input>
         </div>
         </Flex>
       <Flex direction={"column"} width={"400px"} alignItems={"center"} p={"2px"} marginBottom={"28px"}>
         <div>
           <Text align={"left"}>Password</Text>
-          <Input width={"400px"} placeholder="********"></Input>
+          <Input type={"password"} width={"400px"} placeholder="********"></Input>
         </div>
       </Flex>
       <Button  p={4} width={"400px"} height={"40px"} backgroundColor={"green.500"} color={"white"}>Create</Button>
